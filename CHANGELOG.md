@@ -2,6 +2,7 @@
 
 ## 2026-04-03
 
+- Updated the shared `readme-maintenance` skill to include brief explanations of main repository documents in `README.md` when that improves document discoverability.
 - Split standing repository rules out of `TODO.md` into a dedicated `DOALWAYS.md` file.
 - Added the shared `application-development` context skill as the first generic coding context in `ai-rules`.
 - Clarified in the manual and backlog that coding contexts are the most important missing shared context family.

@@ -19,6 +19,17 @@ This repository is the safe first step toward managing shared skills from versio
 - `notes/`: human-readable worklogs and other narrative notes about repository work
 - `USERMANUAL.md`: setup guide and overview of the curated shared skills
 
+## Main Documents
+
+- `README.md`: short repo entrypoint and document index
+- `USERMANUAL.md`: practical setup, sync, and usage guide
+- `DOALWAYS.md`: standing rules that should always be followed in this repository
+- `TODO.md`: current open actions and unresolved next steps
+- `ROADMAP.md`: larger future directions and structural follow-on work
+- `CHANGELOG.md`: compact factual record of meaningful completed changes
+- `rules/skills-architecture.md`: governing structure for the shared skill system
+- `rules/skills-inventory.md`: maintained inventory of current shared, runtime, and plugin skill surfaces
+
 ## Read First
 
 - [USERMANUAL.md](/Users/joostokkinga/Code/ai-rules/USERMANUAL.md): how to set up the repo, how syncing works, and what each curated shared skill is for

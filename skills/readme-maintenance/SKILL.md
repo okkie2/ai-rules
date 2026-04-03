@@ -74,6 +74,17 @@ README.md should include a repository guide that points readers to the deeper do
 - roadmap
 - FAQ / glossary / project-specific context
 
+When a repository has several standing top-level documents, README.md should briefly explain the role of each main document.
+Typical examples include:
+- `USERMANUAL.md`
+- `DOALWAYS.md`
+- `TODO.md`
+- `ROADMAP.md`
+- `CHANGELOG.md`
+
+Keep those explanations short and orienting.
+The goal is discoverability, not duplicating the content of those documents inside README.md.
+
 Keep top-level README.md focused on the reusable tool, product, or repository itself.
 Do not lead with client-specific or project-specific framing in an open or reusable repository unless the repository is explicitly a client delivery artifact.
 
