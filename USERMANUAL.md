@@ -37,6 +37,8 @@ Do not treat `~/.codex` as the long-term source of truth.
   - sync helpers between `ai-rules` and the live Codex runtime
 - `README.md`
   - short repo entrypoint
+- `DOALWAYS.md`
+  - standing rules that always apply in this repository
 - `USERMANUAL.md`
   - this practical guide
 - `AGENTS.md`
@@ -105,6 +107,10 @@ zsh ~/Code/ai-rules/scripts/sync-to-codex.sh --dry-run
 zsh ~/Code/ai-rules/scripts/sync-to-codex.sh
 git push origin main
 ```
+
+## Standing Rules
+
+See [DOALWAYS.md](/Users/joostokkinga/Code/ai-rules/DOALWAYS.md) for the rules that always apply in this repository.
 
 ## Curated Shared Skills
 

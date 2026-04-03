@@ -13,6 +13,7 @@ Keep runtime-specific caches, plugin content, and generated system-managed artif
 
 - `skills/`: curated shared skills
 - `rules/`: architecture notes, inventories, and other shared governance documents
+- `DOALWAYS.md`: standing repository rules that always apply
 - live runtime remains outside this repo for now under `~/.codex/`
 
 ## Repository-Specific Rules

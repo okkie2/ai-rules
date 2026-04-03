@@ -1,5 +1,7 @@
 # TODO
 
+- See `DOALWAYS.md` for standing rules that always apply.
+
 - Validate the new sync scripts against a few real shared-skill changes before treating them as the standard deployment path.
 - Add a lightweight eval/regression structure for shared skills.
 - Validate whether `application-development` is the right generic coding context before adding narrower stack-specific contexts.
