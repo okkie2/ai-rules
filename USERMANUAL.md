@@ -76,8 +76,8 @@ Do not manage here:
 
 Available scripts:
 
-- [scripts/sync-to-codex.sh](/Users/joostokkinga/Code/ai-rules/scripts/sync-to-codex.sh)
-- [scripts/sync-from-codex.sh](/Users/joostokkinga/Code/ai-rules/scripts/sync-from-codex.sh)
+- [scripts/sync-to-codex.sh](scripts/sync-to-codex.sh)
+- [scripts/sync-from-codex.sh](scripts/sync-from-codex.sh)
 
 Normal path:
 
@@ -110,7 +110,7 @@ git push origin main
 
 ## Standing Rules
 
-See [DOALWAYS.md](/Users/joostokkinga/Code/ai-rules/DOALWAYS.md) for the rules that always apply in this repository.
+See [DOALWAYS.md](DOALWAYS.md) for the rules that always apply in this repository.
 
 ## Curated Shared Skills
 
