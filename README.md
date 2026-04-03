@@ -23,6 +23,7 @@ This repository is the safe first step toward managing shared skills from versio
 
 - [USERMANUAL.md](/Users/joostokkinga/Code/ai-rules/USERMANUAL.md): how to set up the repo, how syncing works, and what each curated shared skill is for
 - [DOALWAYS.md](/Users/joostokkinga/Code/ai-rules/DOALWAYS.md): standing rules that always apply in this repository
+- [notes/2026-04-03-worklog.md](/Users/joostokkinga/Code/ai-rules/notes/2026-04-03-worklog.md): human-readable worklog for today's skills and governance work
 - [rules/skills-architecture.md](/Users/joostokkinga/Code/ai-rules/rules/skills-architecture.md): how the shared skill system is structured
 - [rules/skills-inventory.md](/Users/joostokkinga/Code/ai-rules/rules/skills-inventory.md): maintained inventory of the current skill set
 
