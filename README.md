@@ -16,6 +16,7 @@ This repository is the safe first step toward managing shared skills from versio
 - `skills/`: curated shared skills
 - `rules/`: shared governance notes and inventories
 - `scripts/`: sync helpers for live runtime deployment and recovery
+- `notes/`: human-readable worklogs and other narrative notes about repository work
 - `USERMANUAL.md`: setup guide and overview of the curated shared skills
 
 ## Read First
