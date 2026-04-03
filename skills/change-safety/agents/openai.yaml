@@ -1,0 +1,4 @@
+interface:
+  display_name: "Change Safety"
+  short_description: "Help verify UI and logic changes"
+  default_prompt: "Use $change-safety to make this change safely, run the relevant tests, and report what was verified."

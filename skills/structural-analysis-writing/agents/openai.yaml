@@ -1,0 +1,4 @@
+interface:
+  display_name: "Structural Analysis Writing"
+  short_description: "Write disciplined evidence-aware analysis."
+  default_prompt: "Use $structural-analysis-writing to build a spine-first analytical article, memo, or decision note with explicit causality and trade-offs."

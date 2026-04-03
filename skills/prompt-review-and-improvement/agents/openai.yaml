@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Review And Improvement"
+  short_description: "Sharpen prompts without blocking execution."
+  default_prompt: "Use $prompt-review-and-improvement to quickly assess a prompt, tighten it only if helpful, and then proceed with the task."

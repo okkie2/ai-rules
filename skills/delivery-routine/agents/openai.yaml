@@ -1,0 +1,4 @@
+interface:
+  display_name: "Delivery Routine"
+  short_description: "Help deliver completed work cleanly"
+  default_prompt: "Use $delivery-routine to take this finished change through commit, push, and the repository's normal delivery steps."

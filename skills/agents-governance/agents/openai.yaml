@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agents Governance"
+  short_description: "Help manage AGENTS.md structure"
+  default_prompt: "Use $agents-governance to create or clean up AGENTS.md files and separate shared rules from repo-specific guidance."

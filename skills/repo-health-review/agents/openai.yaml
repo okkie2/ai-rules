@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Health Review"
+  short_description: "Review repository coherence after feature waves."
+  default_prompt: "Use $repo-health-review to run a small or broad repository-health review after a meaningful feature wave and record the right follow-up actions."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Hygiene"
+  short_description: "Help keep repo hygiene current"
+  default_prompt: "Use $repo-hygiene to update TODO.md, CHANGELOG.md, and leave the repository in a clean, understandable state."

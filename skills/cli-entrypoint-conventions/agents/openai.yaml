@@ -1,0 +1,6 @@
+display_name: CLI Entrypoint Conventions
+short_description: Standardize repo-local CLI menu entrypoints.
+default_prompt: >-
+  Apply the shared CLI entrypoint convention: provide a repo-local menu launcher,
+  make `menu` work from the project root without becoming a global repo-jumping
+  command, document the behavior, and verify it.

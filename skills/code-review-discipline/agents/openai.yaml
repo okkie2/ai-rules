@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Review Discipline"
+  short_description: "Findings-first code review and risk assessment"
+  default_prompt: "Use $code-review-discipline to review this change, prioritize concrete findings, and call out residual risks or testing gaps."

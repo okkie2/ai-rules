@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ubiquitous Language"
+  short_description: "Help keep domain terms aligned"
+  default_prompt: "Use $ubiquitous-language to align these domain terms across the glossary, UI, code, and documentation."

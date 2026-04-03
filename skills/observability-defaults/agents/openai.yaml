@@ -1,0 +1,4 @@
+interface:
+  display_name: "Observability Defaults"
+  short_description: "Help add structured operational logging"
+  default_prompt: "Use $observability-defaults to make these changes observable and ensure user-facing failures are logged with useful context."

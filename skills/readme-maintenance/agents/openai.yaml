@@ -1,0 +1,4 @@
+interface:
+  display_name: "README Maintenance"
+  short_description: "Help keep README files accurate"
+  default_prompt: "Use $readme-maintenance to update README.md after these project changes."

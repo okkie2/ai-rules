@@ -1,0 +1,4 @@
+interface:
+  display_name: "Parallel Git Workflow"
+  short_description: "Coordinate safe multi-agent git work in one repo."
+  default_prompt: "Use $parallel-git-workflow to plan branch ownership, worktree usage, integration strategy, and conflict avoidance for several agents working in parallel."

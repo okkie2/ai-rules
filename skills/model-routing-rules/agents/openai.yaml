@@ -1,0 +1,4 @@
+interface:
+  display_name: "Model Routing Rules"
+  short_description: "Cost-aware model routing and escalation policy."
+  default_prompt: "Classify task type, pick cheapest viable model and effort, escalate only on explicit quality or risk triggers."

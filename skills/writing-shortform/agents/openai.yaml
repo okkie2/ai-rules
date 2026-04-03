@@ -1,0 +1,4 @@
+interface:
+  display_name: "Writing Shortform"
+  short_description: "Write sharp short-form public pieces."
+  default_prompt: "Use $writing-shortform to draft a concise LinkedIn post or short blog piece with one clear argument and strong compression."
