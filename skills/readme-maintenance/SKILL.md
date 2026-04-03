@@ -76,7 +76,7 @@ README.md should include a repository guide that points readers to the deeper do
 
 When a repository has several standing top-level documents, README.md should briefly explain the role of each main document.
 Typical examples include:
-- `USERMANUAL.md`
+- `MANUAL.md`
 - `DOALWAYS.md`
 - `TODO.md`
 - `ROADMAP.md`
@@ -95,7 +95,7 @@ When a repository contains both a reusable tool and project-specific or client-s
 Move deep schema notes, modelling rules, or project-specific source descriptions out of README.md and into more specific documentation files whenever that improves readability.
 
 When a repository has both an end-user manual and technical UI documentation, prefer this split:
-- `USERMANUAL.md` for task-oriented end-user guidance
+- `MANUAL.md` for task-oriented end-user guidance
 - a technical document such as `docs/web-app.md` for UI behavior, edit/read-only semantics, and implementation-facing interaction detail
 
 Keep the startup or first-use path obvious near the top of the end-user manual when such a manual exists.

@@ -12,7 +12,6 @@ It is for durable maintenance behavior, not for open work items.
 - Use `zsh ~/Code/ai-rules/scripts/sync-to-codex.sh --dry-run` before any live runtime sync.
 - Keep `~/.codex` as a runtime target, not the canonical source of truth.
 - Keep runtime-managed content out of the curated repository unless it is intentionally vendored.
-- Keep `USERMANUAL.md` current when the curated shared skill set or sync workflow changes materially.
+- Keep `MANUAL.md` current when the curated shared skill set or sync workflow changes materially.
 - Keep `rules/skills-architecture.md` and `rules/skills-inventory.md` current when the curated skill system changes materially.
 - Keep `README.md` short and orienting, not a dump of operational detail.
-

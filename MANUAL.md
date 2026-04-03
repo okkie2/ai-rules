@@ -1,4 +1,4 @@
-# USERMANUAL
+# MANUAL
 
 ## Purpose
 
@@ -39,7 +39,7 @@ Do not treat `~/.codex` as the long-term source of truth.
   - short repo entrypoint
 - `DOALWAYS.md`
   - standing rules that always apply in this repository
-- `USERMANUAL.md`
+- `MANUAL.md`
   - this practical guide
 - `AGENTS.md`
   - repo-local operating guidance for maintaining this repo

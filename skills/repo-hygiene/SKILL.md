@@ -37,7 +37,7 @@ Make sure the next logical steps, completed work, and current repo state are eas
 ## Rules
 Project documentation must be written in English by default.
 
-This applies to files such as `README.md`, `TODO.md`, `CHANGELOG.md`, and documentation under `docs/`, unless the user explicitly requests another language.
+This applies to files such as `README.md`, `MANUAL.md`, `TODO.md`, `CHANGELOG.md`, and documentation under `docs/`, unless the user explicitly requests another language.
 
 Never leave `AGENTS.md`, `CHANGELOG.md`, `TODO.md`, or `ROADMAP.md` missing in a maintained repository. Create them before finishing substantial work if they do not exist.
 Never leave TODO.md or CHANGELOG.md outdated.
@@ -50,4 +50,4 @@ Prefer small, clean commits over large ones.
 
 Do not assume code should be pushed or published unless the user asks for that or the workflow explicitly requires it.
 
-`README.md` must include a documentation index that explains the role of the other docs in the repository when such docs exist.
+`README.md` must include a documentation index that explains the role of the other docs in the repository when such docs exist, including `MANUAL.md` when the repository uses one.

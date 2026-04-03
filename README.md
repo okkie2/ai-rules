@@ -17,12 +17,12 @@ This repository is the safe first step toward managing shared skills from versio
 - `rules/`: shared governance notes and inventories
 - `scripts/`: sync helpers for live runtime deployment and recovery
 - `notes/`: human-readable worklogs and other narrative notes about repository work
-- `USERMANUAL.md`: setup guide and overview of the curated shared skills
+- `MANUAL.md`: setup guide and overview of the curated shared skills
 
 ## Main Documents
 
 - `README.md`: short repo entrypoint and document index
-- `USERMANUAL.md`: practical setup, sync, and usage guide
+- `MANUAL.md`: practical setup, sync, and usage guide
 - `DOALWAYS.md`: standing rules that should always be followed in this repository
 - `TODO.md`: current open actions and unresolved next steps
 - `ROADMAP.md`: larger future directions and structural follow-on work
@@ -32,7 +32,7 @@ This repository is the safe first step toward managing shared skills from versio
 
 ## Read First
 
-- [USERMANUAL.md](USERMANUAL.md): how to set up the repo, how syncing works, and what each curated shared skill is for
+- [MANUAL.md](MANUAL.md): how to set up the repo, how syncing works, and what each curated shared skill is for
 - [DOALWAYS.md](DOALWAYS.md): standing rules that always apply in this repository
 - [notes/2026-04-03-worklog.md](notes/2026-04-03-worklog.md): human-readable worklog for today's skills and governance work
 - [rules/skills-architecture.md](rules/skills-architecture.md): how the shared skill system is structured

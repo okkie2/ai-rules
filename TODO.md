@@ -7,6 +7,6 @@
 - Validate whether `application-development` is the right generic coding context before adding narrower stack-specific contexts.
 - Decide how to support Claude and other agent runtimes from the same source repository.
 - Review whether any remaining runtime content should be vendored here intentionally or kept external.
-- Keep `USERMANUAL.md` current as the curated shared skill set changes materially.
+- Keep `MANUAL.md` current as the curated shared skill set changes materially.
 - Consider splitting `TODO` into `TODO` and `ALWAYS DO` as a general pattern for skills and repository guidance.
-- Reconsider the responsibility split between `README.md`, `USERMANUAL.md`, and the setup manual role; check best practices first.
+- Reconsider the responsibility split between `README.md`, `MANUAL.md`, and the setup manual role; check best practices first.
