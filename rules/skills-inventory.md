@@ -33,6 +33,7 @@ These are available capabilities, but they are not part of the curated shared-sk
 | Skill | Category | Status | Rationale |
 |---|---|---|---|
 | `agents-governance` | `decision-rules` | active | Governs what belongs in shared skills versus repo-local `AGENTS.md`. |
+| `application-development` | `contexts` | active, new | Reusable coding context for application implementation across stacks without tying behavior to one language or framework. |
 | `application-docs` | `contexts` | active, new | Reusable context for resumes, cover letters, and job-application positioning. |
 | `bdd-regression` | `workflows` | active | Repeatable regression workflow for Gherkin/BDD coverage and checks. |
 | `change-safety` | `core` | active | Cross-repo discipline for validating behavioral changes and reporting residual risk. |

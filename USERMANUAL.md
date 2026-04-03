@@ -186,6 +186,12 @@ Below is the current curated shared skill set, grouped by category.
 
 ### Contexts
 
+Current implemented contexts:
+
+`application-development`
+- what it does: guides software implementation in a language-agnostic way, with clear boundaries, simple designs, and practical verification
+- example: `Use $application-development to implement this application change cleanly without overengineering it.`
+
 `application-docs`
 - what it does: creates tailored resumes and cover letters for job applications
 - example: `Use $application-docs to tailor my resume and cover letter to this vacancy.`
@@ -197,6 +203,15 @@ Below is the current curated shared skill set, grouped by category.
 `writing-shortform`
 - what it does: writes compact public pieces such as LinkedIn posts or short blog posts
 - example: `Use $writing-shortform to draft a LinkedIn post about AI skills.`
+
+Important missing context family:
+
+- deeper coding contexts beyond the new generic application-development layer
+
+Planned high-value coding contexts:
+
+- `typescript-postgres-app`
+- `flask-sqlite-app` if recurrence proves it deserves to be shared
 
 ## Runtime And Plugin Skills
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Application Development"
+  short_description: "Build applications cleanly across stacks."
+  default_prompt: "Use $application-development to scope and implement this application change with clear boundaries, simple design, and practical verification."
