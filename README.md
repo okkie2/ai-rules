@@ -6,6 +6,7 @@ It currently holds:
 
 - shared skills intended for Codex
 - shared governance notes such as skills architecture and skills inventory
+- a practical manual for setup, syncing, and skill overview
 
 The live Codex runtime under `~/.codex/` remains untouched for now.
 This repository is the safe first step toward managing shared skills from versioned source before introducing any sync or symlink workflow.
@@ -15,6 +16,13 @@ This repository is the safe first step toward managing shared skills from versio
 - `skills/`: curated shared skills
 - `rules/`: shared governance notes and inventories
 - `scripts/`: sync helpers for live runtime deployment and recovery
+- `USERMANUAL.md`: setup guide and overview of the curated shared skills
+
+## Read First
+
+- [USERMANUAL.md](/Users/joostokkinga/Code/ai-rules/USERMANUAL.md): how to set up the repo, how syncing works, and what each curated shared skill is for
+- [rules/skills-architecture.md](/Users/joostokkinga/Code/ai-rules/rules/skills-architecture.md): how the shared skill system is structured
+- [rules/skills-inventory.md](/Users/joostokkinga/Code/ai-rules/rules/skills-inventory.md): maintained inventory of the current skill set
 
 ## Current Status
 
