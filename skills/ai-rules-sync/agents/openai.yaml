@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Rules Sync"
+  short_description: "Sync ai-rules with the live Codex runtime."
+  default_prompt: "Use $ai-rules-sync to deploy shared skill changes from the ai-rules repo to ~/.codex or to recover accidental live runtime edits safely."

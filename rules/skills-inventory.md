@@ -40,6 +40,7 @@ These are available capabilities, but they are not part of the curated shared-sk
 | `code-review-discipline` | `core` | active | Findings-first review behavior and risk-oriented evaluation. |
 | `commit-discipline` | `core` | active | Commit scoping and message quality across repositories. |
 | `delivery-routine` | `workflows` | active | Multi-step delivery workflow after a logical unit of work. |
+| `ai-rules-sync` | `workflows` | active, new | Governs safe repo-to-runtime sync and limited runtime-to-repo recovery for curated shared skills and rules. |
 | `repo-health-review` | `workflows` | active, new | Reusable small and broad review routine for checking documentation, QA, architecture, planning, and operational drift after feature waves. |
 | `model-routing-rules` | `decision-rules` | active | Cost-aware routing, escalation, and delegation policy for model use. |
 | `observability-defaults` | `core` | active | Default logging and operational observability discipline. |

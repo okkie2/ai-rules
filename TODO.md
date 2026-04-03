@@ -1,6 +1,6 @@
 # TODO
 
-- Decide the long-term sync strategy between `~/Code/ai-rules` and the live runtime under `~/.codex/`.
+- Validate the new sync scripts against a few real shared-skill changes before treating them as the standard deployment path.
 - Add a lightweight eval/regression structure for shared skills.
 - Decide how to support Claude and other agent runtimes from the same source repository.
 - Review whether any remaining runtime content should be vendored here intentionally or kept external.
