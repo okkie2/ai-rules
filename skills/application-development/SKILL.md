@@ -67,6 +67,18 @@ This skill is intentionally not tied to one language, framework, or stack.
 - avoid hidden side effects
 - avoid spreading one logical change across too many files without a good reason
 
+### Check File Size Before Adding
+
+Before adding code to an existing file, check its current line count. If it exceeds 400 lines:
+
+1. Ask whether the new code can stand alone — does it have a clear name, clear inputs, and no circular dependency on the host file?
+2. If yes: create a new module and import it. This is the right moment to split, not later.
+3. If no: record why the code must stay in the host file before proceeding.
+
+Never silently grow a file past 400 lines. Applies to all file types: TypeScript, React components, Python modules, Go packages, and so on.
+
+When a file is already a known hotspot (far above 400 lines), treat every new addition as a forcing function: the new code goes into the correct extracted module, not into the existing file.
+
 ### Be Careful With Abstractions
 
 Good reasons to add an abstraction:
