@@ -32,26 +32,27 @@ These are available capabilities, but they are not part of the curated shared-sk
 
 | Skill | Category | Status | Rationale |
 |---|---|---|---|
-| `agents-governance` | `decision-rules` | active | Governs what belongs in shared skills versus repo-local `AGENTS.md`. |
+| `agents-governance` | `decision-rules` | active | Places repository instruction changes in the right layer between shared skills and `AGENTS.md`. |
 | `application-development` | `contexts` | active, new | Reusable coding context for application implementation across stacks without tying behavior to one language or framework. |
 | `application-docs` | `contexts` | active, new | Reusable context for resumes, cover letters, and job-application positioning. |
 | `bdd-regression` | `workflows` | active | Repeatable regression workflow for Gherkin/BDD coverage and checks. |
 | `change-safety` | `core` | active | Cross-repo discipline for validating behavioral changes and reporting residual risk. |
-| `cli-entrypoint-conventions` | `workflows` | active, borderline | Standardizes a repeatable CLI onboarding pattern; could later move if a clearer category emerges. |
+| `cli-entrypoint-conventions` | `workflows` | active, borderline | Standardizes a repo-local CLI onboarding pattern for projects that expose a `menu` entrypoint. |
 | `code-review-discipline` | `core` | active | Findings-first review behavior and risk-oriented evaluation. |
 | `commit-discipline` | `core` | active | Commit scoping and message quality across repositories. |
 | `delivery-routine` | `workflows` | active | Multi-step delivery workflow after a logical unit of work. |
-| `ai-rules-sync` | `workflows` | active, new | Governs safe repo-to-runtime sync and limited runtime-to-repo recovery for curated shared skills and rules. |
-| `repo-health-review` | `workflows` | active, new | Reusable small and broad review routine for checking documentation, QA, architecture, planning, and operational drift after feature waves. |
+| `ai-rules-sync` | `workflows` | active, new | Syncs curated shared skills and rules safely between the source repo and the live Codex runtime. |
+| `repo-health-review` | `workflows` | active, new | Runs small and broad repository-health reviews after meaningful feature waves or durable document changes. |
 | `model-routing-rules` | `decision-rules` | active | Cost-aware routing, escalation, and delegation policy for model use. |
 | `observability-defaults` | `core` | active | Default logging and operational observability discipline. |
-| `prompt-review-and-improvement` | `core` | active, new | Reusable default behavior for briefly tightening prompts before execution without becoming obstructive. |
-| `readme-maintenance` | `core` | active | Keeps README files aligned with the live product or repository behavior. |
-| `repo-hygiene` | `core` | active | Maintains changelog, todo, cleanliness, and end-of-work hygiene. |
-| `skill-governance-review` | `decision-rules` | active | Reviews durable convention changes and updates the right governance layer. |
-| `structural-analysis-writing` | `contexts` | active, new | Reusable context for spine-first analytical articles, memos, and decision writing. |
-| `ubiquitous-language` | `core` | active | Keeps naming and domain terminology aligned across code, docs, and product language. |
-| `writing-shortform` | `contexts` | active, new | Reusable context for LinkedIn posts, short opinion pieces, and compressed public writing. |
+| `prompt-review-and-improvement` | `core` | active, new | Sharpens user prompts before execution when that materially improves the outcome. |
+| `devops-concept-feedback` | `contexts` | active, new | Reusable context for reviewing DevOps terminology, concept distinctions, and learning prompts. |
+| `readme-maintenance` | `core` | active | Keeps README files accurate and structurally consistent after repository changes. |
+| `repo-hygiene` | `core` | active | Maintains changelog, todo, commit readiness, and end-of-work cleanliness. |
+| `skill-governance-review` | `decision-rules` | active | Decides where durable convention changes belong across shared skills, repo guidance, and docs. |
+| `structural-analysis-writing` | `contexts` | active, new | Reusable context for disciplined structural analysis, memos, and decision writing. |
+| `ubiquitous-language` | `core` | active | Keeps domain terminology consistent across code, docs, and product language. |
+| `writing-shortform` | `contexts` | active, new | Reusable context for concise public writing with a sharp argument and clear framing. |
 
 ## Runtime System Skills
 
@@ -89,6 +90,17 @@ These are available capabilities, but they are not part of the curated shared-sk
 | `google-slides-template-surgery` | `platforms` | active | Structural deck rework. |
 | `google-slides-visual-iteration` | `platforms` | active | Thumbnail-driven visual cleanup loop for decks. |
 
+## Runtime Local Exceptions To Rehome
+
+These skills currently live only in the runtime `~/.codex/skills/` set and should remain separate from the curated shared inventory unless they are intentionally promoted later.
+
+| Skill | Current Status | Suggested Home | Reason |
+|---|---|---|---|
+| `offgridos-single-local-instance` | archived runtime-local exception | `~/.codex/archive/skills/local-exceptions/offgridos-single-local-instance` | Encodes one repository's local runtime rule for a single app and canonical localhost URL. |
+| `sqlite-neon-sync-safety` | archived runtime-local exception | `~/.codex/archive/skills/local-exceptions/sqlite-neon-sync-safety` | Encodes one repository's SQLite/Neon sync rule and database recency gate. |
+| `inzagerecht-chat-log` | archived runtime-local exception | `~/.codex/archive/skills/local-exceptions/inzagerecht-chat-log` | Encodes one workspace-specific logging rule for the Inzagerecht folder. |
+| `git-dual-push` | archived runtime-local exception | `~/.codex/archive/skills/local-exceptions/git-dual-push` | Encodes one exact dual-remote setup and should stay local unless the pattern generalizes. |
+
 ## Gaps And Current Direction
 
 Current strengths:
@@ -115,4 +127,5 @@ Current promising context backlog:
 - Update this inventory when a skill clearly changes category.
 - Keep runtime `.system` skills separate from curated shared skills unless explicitly adopted.
 - Keep plugin skills listed separately from curated shared skills.
+- Keep runtime-local exceptions listed separately until they are deliberately promoted into the curated shared set or intentionally archived out of the active runtime load path.
 - When repeated local guidance appears across repositories, evaluate whether it should move into the curated shared inventory.

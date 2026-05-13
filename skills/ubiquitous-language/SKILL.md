@@ -1,6 +1,8 @@
 ---
 name: ubiquitous-language
 description: Keep domain terminology consistent across product, code, and documentation. Use when Codex is adding, renaming, or removing important domain concepts, labels, statuses, relation types, workflow terms, or glossary entries and should align implementation with the project's canonical language.
+metadata:
+  short-description: Keep terminology consistent
 ---
 
 # Ubiquitous Language

@@ -1,6 +1,8 @@
 ---
 name: skill-governance-review
 description: Review and update shared skills and repo-local guidance when repository structure, workspace layout, documentation setup, documentation preferences, or other durable operating conventions change. Use when the user changes folder organization, code-vs-data boundaries, README/documentation expectations, glossary conventions, CLI entrypoint conventions, or other patterns that should become the new default.
+metadata:
+  short-description: Review governance and skill boundaries
 ---
 
 # Skill Governance Review
@@ -8,6 +10,9 @@ description: Review and update shared skills and repo-local guidance when reposi
 ## Purpose
 
 Prevent drift between the user's evolving repository conventions and the skills or local guidance that are supposed to enforce those conventions.
+
+Use this skill when the durable default itself is changing.
+Use it when you need to decide whether a new default belongs in a shared skill, `AGENTS.md`, or repository documentation.
 
 Use this skill when a user changes:
 - folder organization
@@ -59,6 +64,12 @@ At minimum, consider whether these should change:
 
 5. Make the new default explicit
 Do not leave the new pattern implied. Record it in the relevant skill or guidance file so future work follows it automatically.
+
+## Boundary
+
+Do not use this skill for routine file updates inside an established convention. If the convention is already settled, use the narrower maintenance skill for the affected file type instead.
+Do not use this skill for ordinary `AGENTS.md` placement questions unless the placement choice changes the durable default.
+Do not use this skill for settled README content or layout decisions; use `readme-maintenance` unless the README split itself is the convention being changed.
 
 ## Rules
 

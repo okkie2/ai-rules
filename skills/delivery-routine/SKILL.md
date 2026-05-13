@@ -1,6 +1,8 @@
 ---
 name: delivery-routine
 description: Prepare and execute the repository's delivery steps after a logical unit of work is complete. Use when Codex should turn a clean local change set into a delivered change by checking readiness, confirming commit state, pushing branches, preparing pull requests, or updating release-facing delivery artifacts according to the repository's workflow.
+metadata:
+  short-description: Prepare clean repository deliveries
 ---
 
 # Delivery Routine

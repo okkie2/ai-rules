@@ -29,6 +29,7 @@ This repository is the safe first step toward managing shared skills from versio
 - `CHANGELOG.md`: compact factual record of meaningful completed changes
 - `rules/skills-architecture.md`: governing structure for the shared skill system
 - `rules/skills-inventory.md`: maintained inventory of current shared, runtime, and plugin skill surfaces
+- `rules/skills-cleanup-plan.md`: cleanup plan for rebalancing the curated skill set
 
 ## Read First
 

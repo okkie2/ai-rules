@@ -1,6 +1,8 @@
 ---
 name: observability-defaults
 description: Apply default observability discipline for user-facing failures and important operations. Use when Codex adds or changes UI or server behavior and should ensure that errors and key events are logged with enough structured context to support debugging and operational follow-up.
+metadata:
+  short-description: Apply default observability discipline
 ---
 
 # Observability Defaults

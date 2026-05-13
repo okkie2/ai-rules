@@ -1,6 +1,8 @@
 ---
 name: readme-maintenance
 description: Keep README.md accurate, complete, and structurally consistent after repository changes. Use when functionality, setup, usage, dependencies, outputs, limitations, or project structure have changed and the README should be updated accordingly.
+metadata:
+  short-description: Keep README files accurate
 ---
 
 # README Maintenance
@@ -10,6 +12,8 @@ description: Keep README.md accurate, complete, and structurally consistent afte
 Keep README.md useful as the main human entrypoint to a repository.
 
 A good README should help a new reader understand what the repository is, why it exists, what it can do today, and where to go for deeper detail.
+
+Use this skill when the README itself needs to change.
 
 ## Default shape
 
@@ -84,6 +88,9 @@ Typical examples include:
 
 Keep those explanations short and orienting.
 The goal is discoverability, not duplicating the content of those documents inside README.md.
+
+Do not use this skill to maintain TODO.md, CHANGELOG.md, or AGENTS.md unless the README change specifically depends on them.
+Do not use this skill for changelog or TODO hygiene, or for deciding commit readiness; use `repo-hygiene` for that.
 
 Keep top-level README.md focused on the reusable tool, product, or repository itself.
 Do not lead with client-specific or project-specific framing in an open or reusable repository unless the repository is explicitly a client delivery artifact.

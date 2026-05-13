@@ -1,6 +1,8 @@
 ---
 name: model-routing-rules
 description: Route coding tasks to the cheapest viable model and reasoning effort while preserving quality. Use when planning or executing work where cost, speed, and model choice matter, including edit-heavy tasks, refactors, ambiguous design decisions, or any request to optimize model usage.
+metadata:
+  short-description: Route tasks to the cheapest viable model
 ---
 
 # Model Routing Rules

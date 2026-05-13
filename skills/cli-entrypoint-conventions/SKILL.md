@@ -1,6 +1,8 @@
 ---
 name: cli-entrypoint-conventions
 description: Standardize local entrypoints for CLI repositories. Use when building or changing a CLI app, onboarding flow, launcher script, or interactive command surface and the repo should provide a discoverable menu that opens by typing `menu` from the project root without hijacking shell behavior outside that repo.
+metadata:
+  short-description: Standardize CLI onboarding entrypoints
 ---
 
 # CLI Entrypoint Conventions

@@ -1,6 +1,8 @@
 ---
 name: change-safety
 description: Apply disciplined change verification for UI and logic work. Use when Codex makes or reviews behavioral changes and should choose the right automated tests, add missing regression coverage where practical, run relevant checks, and report what was verified and what residual risk remains.
+metadata:
+  short-description: Verify behavioral changes safely
 ---
 
 # Change Safety

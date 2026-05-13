@@ -1,6 +1,8 @@
 ---
 name: repo-hygiene
 description: Maintain repository hygiene after each logical unit of work. Use when Codex should update TODO.md, CHANGELOG.md, or other project documentation, verify commit readiness, and leave the repository in a clean, understandable state after completing a meaningful change set.
+metadata:
+  short-description: Maintain repository hygiene
 ---
 
 # Repo Hygiene
@@ -20,14 +22,6 @@ Add next logical steps, keep items actionable and specific, and remove completed
 3. Check related project documentation
 Update affected project documentation when repository changes make it stale.
 
-Ensure `README.md` includes an index and short explainer for the other repository documentation files, and update that index whenever the documentation set changes.
-
-When a repository contains both reusable tool code and project-specific or client-specific content, explicitly evaluate whether the README structure should be split into:
-- `README.md` for the tool or reusable repository entrypoint
-- `PROJECT_README.md` or an equivalent document for the current project content, dataset, or client context
-
-Prefer a human-readable top-level README over a catch-all technical dump. If README.md starts absorbing schema detail, modelling notes, or client-specific scope that makes the entrypoint harder to scan, move that detail into the more specific documentation file.
-
 4. Prepare clean commit state
 Ensure changes are grouped coherently and ready for a clean commit when the user wants to commit them.
 
@@ -43,11 +37,10 @@ Never leave `AGENTS.md`, `CHANGELOG.md`, `TODO.md`, or `ROADMAP.md` missing in a
 Never leave TODO.md or CHANGELOG.md outdated.
 When removing completed TODO items, first add the completed work to CHANGELOG.md in concise factual form.
 Keep `CHANGELOG.md` ordered newest-first so recent work is immediately visible.
+Do not use this skill to make high-level README structure decisions or decide whether a durable README split belongs in `README.md` versus `PROJECT_README.md`; use `readme-maintenance` or `skill-governance-review` for that.
 
 Never commit unrelated changes together.
 
 Prefer small, clean commits over large ones.
 
 Do not assume code should be pushed or published unless the user asks for that or the workflow explicitly requires it.
-
-`README.md` must include a documentation index that explains the role of the other docs in the repository when such docs exist, including `MANUAL.md` when the repository uses one.

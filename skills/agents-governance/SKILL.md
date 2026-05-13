@@ -1,6 +1,8 @@
 ---
 name: agents-governance
-description: Create, review, and maintain AGENTS.md guidance for a repository. Use when Codex should decide what belongs in shared skills versus repo-local AGENTS.md, create or slim down AGENTS.md files, add deeper scoped AGENTS.md files for subdirectories, or keep repository instructions aligned with current architecture, tooling, and conventions.
+description: Create, review, and maintain AGENTS.md guidance for a repository. Use when Codex needs to decide what belongs in repo-local AGENTS.md, create or slim down AGENTS.md files, add deeper scoped AGENTS.md files for subdirectories, or align repository instruction files with current local constraints.
+metadata:
+  short-description: Manage AGENTS.md guidance
 ---
 
 # Agents Governance
@@ -9,7 +11,8 @@ description: Create, review, and maintain AGENTS.md guidance for a repository. U
 
 Keep repository instruction files clear, local, and maintainable.
 
-Use this skill to manage `AGENTS.md` files and the boundary between reusable shared skills and repo-specific guidance.
+Use this skill to manage `AGENTS.md` files and the boundary between shared skills and repo-specific instruction files.
+Use it when the question is where an instruction belongs, not when the instruction itself is already settled.
 
 ## Workflow
 
@@ -35,6 +38,11 @@ Add a deeper `AGENTS.md` only when a subdirectory has genuinely different rules,
 
 6. Update instructions with the repo
 When architecture, tooling, file layout, testing approach, naming conventions, or operating constraints change, update the relevant `AGENTS.md` files.
+
+## Boundary
+
+Do not use this skill for routine changelog, TODO, roadmap, or README maintenance unless the requested change is specifically about where a repository instruction belongs.
+Do not use this skill for broader durable convention reviews; use `skill-governance-review` when the default itself is changing.
 
 ## Standard Top-Level Structure
 

@@ -11,6 +11,8 @@ metadata:
 
 Keep planning files useful as working queues rather than loose idea dumps.
 
+Use this skill when the change is about priority, ordering, or time horizon inside planning files.
+
 Use this skill when adding, editing, or reordering items in:
 
 - `TODO.md`
@@ -26,6 +28,16 @@ Organize each file into three time horizons:
 
 For `TODO.md`, keep items concrete and near-term.
 For `ROADMAP.md`, keep items at a higher-level, longer-horizon abstraction.
+
+Do not use this skill for README, changelog, or AGENTS.md maintenance unless the planning change depends on those files.
+
+## Actionability Rule
+
+`TODO.md` items must describe a concrete action that can be implemented in the repository. They should read like something you can do, verify, and complete.
+
+If a proposed `TODO.md` item is phrased as a policy, boundary, or preservation statement, rewrite it into an action before adding it. In particular, avoid queue items that start with or depend on wording such as `keep`, `leave`, `avoid`, `pause`, `protect`, `hide from`, or `ignore`. Convert those into explicit tasks like `audit`, `remove`, `rename`, `split`, `move`, `add`, `rewrite`, or `enforce`.
+
+When an idea is not directly actionable, place it in `ROADMAP.md` or repository docs instead of `TODO.md`.
 
 ## Workflow
 

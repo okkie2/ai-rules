@@ -22,6 +22,8 @@ The goal is to:
 - propose a better prompt when that would materially improve the outcome
 - continue with execution unless the user explicitly wants prompt design only
 
+Use this skill for general prompt sharpening, not for teaching technical vocabulary or correcting DevOps concepts.
+
 ## Workflow
 
 1. Read the prompt carefully.
@@ -40,6 +42,8 @@ Check prompts for:
 - prioritisation criteria
 - missing constraints
 - ambiguity between review, rewrite, planning, and execution
+
+If the prompt is really about DevOps terminology, infrastructure concepts, or technical mental models, defer to the DevOps concept feedback skill instead.
 
 ## Default Behaviour
 

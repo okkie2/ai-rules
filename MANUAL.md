@@ -138,6 +138,10 @@ Below is the current curated shared skill set, grouped by category.
 - what it does: briefly sharpens prompts when useful without blocking execution
 - example: `Use $prompt-review-and-improvement to assess this prompt and tighten it only if it helps.`
 
+`devops-concept-feedback`
+- what it does: reviews technical learning prompts and DevOps concepts for clearer terminology
+- example: `Use $devops-concept-feedback to correct this DevOps prompt and sharpen the terminology.`
+
 `readme-maintenance`
 - what it does: keeps `README.md` useful, narrative, and aligned with current behavior
 - example: `Use $readme-maintenance to update the README after this repo structure change.`

@@ -1,6 +1,8 @@
 ---
 name: application-docs
 description: Create tailored resumes and cover letters for job applications, especially in Dutch and broader European hiring contexts. Use when the user wants help with a job application, tailoring a CV or resume to a role, writing or improving a cover letter, aligning application materials with ATS rules, or positioning experience to land interviews without inventing facts.
+metadata:
+  short-description: Create tailored job-application documents
 ---
 
 # Application Docs

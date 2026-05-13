@@ -1,6 +1,8 @@
 ---
 name: bdd-regression
 description: Run and maintain the Gherkin/BDD regression test suite. Use when adding or changing CRUD routes, when asked to run regression tests, or when new features need test coverage added to the feature files.
+metadata:
+  short-description: Run Gherkin regression tests
 ---
 
 # BDD Regression

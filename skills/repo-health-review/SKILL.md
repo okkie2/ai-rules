@@ -24,6 +24,9 @@ Keep repositories coherent as they grow by reviewing the health of:
 
 Review by feature wave, not by line count.
 
+This is a review skill, not a routine file-maintenance skill. Use it when you need to step back and assess coherence across multiple surfaces after meaningful change.
+When the review is really about one file type changing inside an already stable convention, use the narrower maintenance skill instead.
+
 ## Triggers
 
 Use this skill whenever:
@@ -33,6 +36,8 @@ Use this skill whenever:
 - a new architectural seam was introduced
 - a new authoritative document was created or promoted
 - a technical-debt hotspot noticeably grew
+
+Do not use this skill for ordinary TODO, changelog, or README updates unless those updates are part of a broader repository-health pass.
 
 ## Review Cadence
 

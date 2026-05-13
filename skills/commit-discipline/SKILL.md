@@ -1,6 +1,8 @@
 ---
 name: commit-discipline
 description: Create clean, structured, meaningful git commits. Use when Codex is preparing commits, choosing commit boundaries, writing commit messages, or checking whether staged changes represent one logical change.
+metadata:
+  short-description: Write clean git commits
 ---
 
 # Commit Discipline

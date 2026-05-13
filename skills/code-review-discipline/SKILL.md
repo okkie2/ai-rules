@@ -1,6 +1,8 @@
 ---
 name: code-review-discipline
 description: Findings-first code review for evaluate/review/assess requests. Use when the user asks for a code review, evaluation, risk assessment, PR review, or asks whether a change is safe, robust, or production-ready.
+metadata:
+  short-description: Findings-first review discipline
 ---
 
 # Code Review Discipline
